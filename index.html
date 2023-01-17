@@ -7,28 +7,30 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">  
-        <div>
-            <i class="fa-sharp fa-solid fa-location-dot"></i>
-            <scan>logo</scan>
+    <header>  
+        <div class="cabecalho">
+            <i class="fa-sharp fa-solid fa-location-dot"></i> 
+            <span>Logo</span>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </header>
 
     <main class="main-content">
-        <img src="../imagens/london.jpg" alt="Imagem de Londres">
-        <div class="main-top">
-            <span><i class="fa-solid fa-plane"></i> Flight</span>
-            <span><i class="fa-solid fa-hotel"></i> Hotel</span>
-            <span><i class="fa-solid fa-bed"></i> Rental</span>
-        </div>
-        <div>
-            <p>Travel the world with us</p>
-            <form action="" class="main-form">
-                <span class="main-input">From:<input type="text"></span>
-                <span class="main-input">To:<input type="text"></span>
+        <img src="imagens/london.jpg" alt="Imagem de Londres">
+        <div class="main-box">
+            <div class="main-box-top">
+                <div class="top-red"><i class="fa-solid fa-plane"></i> Flight</div>
+                <div class="top-black"><i class="fa-solid fa-hotel"></i> Hotel</div>    
+                <div class="top-black"><i class="fa-solid fa-bed"></i> Rental</div>
+             </div>
+            <div class="main-box-content">
+                <h2>Travel the world with us</h2>
+                <form action="" class="main-form">
+                    <span class="main-input">From: <input type="text" placeholder=" Departing from" id="input"></span>
+                    <span class="main-input">To: <input type="text" placeholder=" Arriving at" id="input"></span>
+                </form>
                 <button class="main-button">Search and find the dates</button>
-            </form>
+            </div>
         </div>
     </main>
     

@@ -2,5 +2,107 @@
 
 *{
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
     margin:0;
+    padding:0;
+}
+
+.cabecalho{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.cabecalho span{
+    color:red;
+    font-size:1.2em;
+    font-weight:bold;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.fa-location-dot{
+    color:rgb(250, 0, 0);
+}
+
+.fa-magnifying-glass{
+    color: gray;
+}
+
+.main-content{
+    display: inline-block;
+    position: relative;
+}
+
+
+.main-box{
+    position: absolute;
+    display:flex;
+    top: 30%;
+    left: 20%;
+    flex-direction: column;
+    background-color: white;
+    max-width: 920px;
+    width: 100vw;
+}
+
+.main-content img{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-box-top{
+    display: flex;
+    width: 100%;
+}
+
+.top-red{
+    background-color: red;
+    color:white;
+    width: 33.4%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.top-black{
+    background-color: black;
+    color: white;
+    width: 33.3%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.main-box-content{
+    display: flex;
+    flex-direction: column;
+    padding:20px 30px;
+    margin: 0 8px;
+    gap: 20px;
+}
+
+.main-form{
+    display:flex;
+}
+
+.main-form span{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#input{
+    flex-grow: 1;
+    width: 100%;
+    height: 30px;
+    border: 0.2px solid rgb(193, 188, 188);
+}
+
+.main-box button{
+    display: block;
+    background-color: gray;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 30px;
+
 }
