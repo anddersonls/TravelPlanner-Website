@@ -31,20 +31,20 @@
 }
 
 .main-content{
-    display: inline-block;
+    display: block;
     position: relative;
 }
-
 
 .main-box{
     position: absolute;
     display:flex;
-    top: 30%;
-    left: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     flex-direction: column;
     background-color: white;
     max-width: 920px;
-    width: 100vw;
+    width: 100%;
 }
 
 .main-content img{
@@ -57,20 +57,19 @@
     width: 100%;
 }
 
-.top-red{
-    background-color: red;
+.main-box-top div{
     color:white;
     width: 33.4%;
     text-align: center;
     padding: 5px 0;
 }
 
+.top-red{
+    background-color: red;
+}
+
 .top-black{
     background-color: black;
-    color: white;
-    width: 33.3%;
-    text-align: center;
-    padding: 5px 0;
 }
 
 .main-box-content{
@@ -104,5 +103,20 @@
     color: white;
     width: 180px;
     height: 30px;
+}
+
+.container{
+    margin: 40px 120px;
+}
+
+.offer-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.offer{
+    display: grid;
+    grid-template-columns: 500px 200px 200px;
 
 }
