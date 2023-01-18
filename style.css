@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color:rgb(192, 185, 185);
+    background-color: rgb(237, 234, 234);
 }
 
 .cabecalho{
@@ -99,7 +99,7 @@ body{
     flex-grow: 1;
     width: 100%;
     height: 30px;
-    border: 0.2px solid rgb(193, 188, 188);
+    border: 0.2px solid rgb(222, 202, 202);
 }
 
 .main-box button{
@@ -176,4 +176,33 @@ img{
 .card-text{
     padding: 10px;
     font-weight: 600;
+}
+
+.get-email{
+    background-color: rgb(80, 77, 77);
+    padding: 20px 15px;
+    color:white;
+}
+
+.get-email-text{
+   margin: 10px 0;
+}
+
+#input-email{
+    display: flex;
+    flex-direction: column;
+}
+
+#input-email > input{
+    padding: 10px;
+    margin-top: 2px;
+}
+
+#email-button{
+    background-color: rgb(250, 121, 125);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin-top: 15px;
 }
