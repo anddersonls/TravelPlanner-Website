@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
     <header>  
         <div class="cabecalho">
-            <i class="fa-sharp fa-solid fa-location-dot"></i> 
+            <i class="fa-sharp fa-solid fa-location-dot" id="location-header"></i> 
             <span>Logo</span>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
@@ -34,11 +34,10 @@
         </div>
     </main>
     
-
     <section class="container">
-        <h1>Good Offers Right Now</h1>
-        <p>Up to <strong>50%</strong> discount</p>
-        <section class="container-grid">
+        <h1 class="offer-text">Good Offers Right Now</h1>
+        <p class="offer-text">Up to <strong>50%</strong> discount</p>
+        <div class="container-grid">
             <div class="grid-item">
                 <img src="../imagens/cinqueterre.jpg" alt="Imagem de Cinqueterre" id="cinqueterre">
                 <p>Cinqueterre</p>
@@ -59,53 +58,59 @@
                 <img src="../imagens/paris.jpg" alt="Imagem de Paris" id="paris">
                 <p>Paris</p>
             </div>
-        </section>
+        </div>
     </section>
 
     <section class="container">
-        <div class="card">
-            <img src="imagens/ocean.jpg" alt="Imagem do oceano de Norway">
-            <h3>West Cost, Norway</h3>
-            <p>Roundtrip from $79</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Buy Tickets</p>
-        </div>
-        <div class="card">
-            <img src="imagens/mountains.jpg" alt="Imagem das montanhas da Austria">
-            <h3>Mountains, Austria</h3>
-            <p>One-way from $39</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Buy Tickets</p>
+        <h1 class="explore-text">Explore Nature</h1>
+        <p class="explore-text">Travel with us and see nature at its finest</p>
+        <div class="container-explore">
+            <div class="card">
+                <img src="imagens/ocean.jpg" alt="Imagem do oceano de Norway">
+                <h3 class="card-text">West Cost, Norway</h3>
+                <p class="card-price">Roundtrip from $79</p>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <p class="card-text">Buy Tickets</p>
+            </div>
+            <div class="card">
+                <img src="imagens/mountains.jpg" alt="Imagem das montanhas da Austria">
+                <h3 class="card-text">Mountains, Austria</h3>
+                <p class="card-price">One-way from $39</p>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <p class="card-text">Buy Tickets</p>
+            </div>
         </div>
     </section>
 
     <section class="container">
         <div class="get-email">
-            <h3>Get the best offers first!</h3>
-            <p>Join our newsletter</p>
-            <p>Email</p>
-            <input type="text" placeholder="Your Email adress">
-            <button>Subscribe</button>
+            <h1 class="get-email-text">Get the best offers first!</h1>
+            <p class="get-email-text">Join our newsletter</p>
+            <div id="input-email">
+                <p>Email</p>
+                <input type="text" placeholder="Your Email adress">
+            </div>    
+            <button id="email-button">Subscribe</button>
         </div>
     </section>
 
     <section class="container"> 
-        <div class="contact">
-            <h2>Contact</h2>
-            <p>Let us book your next trip!</p>
-            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Chicago, US</p>
-            <p><i class="fa-solid fa-phone"></i> Phone: *00 151515</p>
-            <p><i class="fa-solid fa-envelope"></i>Email: mail@gmail.com</p>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Message">
-            <button>SEND MESSAGE</button>
+        <h2 class="contact-text">Contact</h2>
+        <p class="contact-text">Let us book your next trip!</p>
+        <p class="contact-info"><i class="fa-sharp fa-solid fa-location-dot" id="location-contact"></i> Chicago, US</p>
+        <p class="contact-info"><i class="fa-solid fa-phone"></i>Phone: *00 151515</p>
+        <p class="contact-info"><i class="fa-solid fa-envelope"></i>Email: mail@gmail.com</p>
+        <div class="contact-flex">
+            <input type="text" placeholder=" Name" class="contact-input">
+            <input type="text" placeholder=" Email" class="contact-input">
+            <input type="text" placeholder=" Message" class="contact-input">
         </div>
+        <button class="contact-button">SEND MESSAGE</button>
     </section>
 
     <footer class="rodape">
         <p>Find us On</p>
-        <div>
+        <div class="rodape-flex">
             <i class="fa-brands fa-square-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-snapchat"></i>
