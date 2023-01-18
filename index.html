@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
     <header>  
         <div class="cabecalho">
-            <i class="fa-sharp fa-solid fa-location-dot"></i> 
+            <i class="fa-sharp fa-solid fa-location-dot" id="location-header"></i> 
             <span>Logo</span>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
@@ -95,22 +95,22 @@
     </section>
 
     <section class="container"> 
-        <div class="contact">
-            <h2>Contact</h2>
-            <p>Let us book your next trip!</p>
-            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Chicago, US</p>
-            <p><i class="fa-solid fa-phone"></i> Phone: *00 151515</p>
-            <p><i class="fa-solid fa-envelope"></i>Email: mail@gmail.com</p>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Message">
-            <button>SEND MESSAGE</button>
+        <h2 class="contact-text">Contact</h2>
+        <p class="contact-text">Let us book your next trip!</p>
+        <p class="contact-info"><i class="fa-sharp fa-solid fa-location-dot" id="location-contact"></i> Chicago, US</p>
+        <p class="contact-info"><i class="fa-solid fa-phone"></i>Phone: *00 151515</p>
+        <p class="contact-info"><i class="fa-solid fa-envelope"></i>Email: mail@gmail.com</p>
+        <div class="contact-flex">
+            <input type="text" placeholder=" Name" class="contact-input">
+            <input type="text" placeholder=" Email" class="contact-input">
+            <input type="text" placeholder=" Message" class="contact-input">
         </div>
+        <button class="contact-button">SEND MESSAGE</button>
     </section>
 
     <footer class="rodape">
         <p>Find us On</p>
-        <div>
+        <div class="rodape-flex">
             <i class="fa-brands fa-square-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-snapchat"></i>
