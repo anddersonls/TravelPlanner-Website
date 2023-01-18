@@ -7,11 +7,16 @@
     padding:0;
 }
 
+body{
+    background-color:rgb(192, 185, 185);
+}
+
 .cabecalho{
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
+    background-color: white;;
 }
 
 .cabecalho span{
@@ -20,6 +25,7 @@
     font-weight:bold;
     flex-grow: 1;
     margin-left: 10px;
+    background-color: white;
 }
 
 .fa-location-dot{
@@ -106,12 +112,16 @@
 }
 
 .container{
-    margin: 30px 4%;
+    margin: 30px 10%;
 }
 
 img{
     display: block;
     max-width: 100%;
+}
+
+.offer-text{
+    margin: 10px 0;
 }
 
 .container-grid{
@@ -144,3 +154,26 @@ img{
     font-weight: bold;
 }
 
+.explore-text{
+    margin-bottom: 10px;
+}
+
+.container-explore{
+    display: flex;
+    gap: 0 20px;
+}
+
+.card1, .card2{
+    background-color: white;
+    max-width: 688;
+    width: 100%;
+}
+
+.card-price{
+    padding: 10px;
+}
+
+.card-text{
+    padding: 10px;
+    font-weight: 600;
+}
